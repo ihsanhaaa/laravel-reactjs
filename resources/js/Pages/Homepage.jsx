@@ -12,6 +12,8 @@ export default function Homepage(props) {
                 return (
                     <div key={i} className='p-4 m-2 bg-white text-black'>
                         <p>{data.title}</p>
+                        <p>{data.category}</p>
+                        <p>{data.author}</p>
                         <p>{data.content}</p>
                     </div>
                 )
