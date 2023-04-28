@@ -1,3 +1,4 @@
+import Navbar from '@/Components/Navbar';
 import { Link, Head } from '@inertiajs/react';
 
 export default function Homepage(props) {
@@ -5,6 +6,7 @@ export default function Homepage(props) {
     return (
         <>
             <Head title="Beranda" />
+            <Navbar />
 
             <h1>{props.description}</h1>
 
