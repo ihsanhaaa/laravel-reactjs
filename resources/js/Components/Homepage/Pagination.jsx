@@ -1,7 +1,7 @@
 import { Link } from "@inertiajs/react";
 
 const Pagination = ({ meta }) => {
-    console.log('metaa = ', meta)
+    // console.log('metaa = ', meta)
     const prev = meta.links[0].url;
     const next = meta.links[meta.links.length - 1].url;
     const current = meta.current_page;
