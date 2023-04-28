@@ -11,9 +11,7 @@ const Pagination = ({ meta }) => {
             {/* {console.log('metaa = ', meta)} */}
             <div className="btn-group">
                 {prev && <Link href={prev} className="btn">«</Link>}
-
                 <button className="btn">{current}</button>
-                
                 {next && <Link href={next} className="btn">»</Link>}
             </div>
         </div>
