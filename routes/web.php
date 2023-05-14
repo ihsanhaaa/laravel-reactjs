@@ -18,6 +18,8 @@ use Inertia\Inertia;
 */
 
 Route::get('/', [PostController::class, 'index']);
+Route::post('/posts', [PostController::class, 'store']);
+Route::get('/posts', [PostController::class, 'show']);
 
 // Route::get('/welcome', function () {
 //     return Inertia::render('Welcome', [
